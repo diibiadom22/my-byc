@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Jost:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  font-family: 'Jost', sans-serif;
+}
+
+/* * {
+    font-family: 'Inter',  sans-serif;
+    //svh
+
+} */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ html, body{
+  max-width:100%;
+  overflow-x:hidden;
+}
+
+
+.setting{
+  width: 1250px;
+}
+
+.footer p {
+  font-size: smaller;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  border: 0;
+  width: 98%;
+  height: 70%;
+  position: absolute;
+}
+
+.myBtn {
+  background-color: #bd3a3a;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  margin-top: 60px;
+}
+
+.first-btn {
+  outline: none;
+  border: 1px solid #bd3a3a;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #bd3a3a;
+}
+
+.second-btn {
+  outline: none;
+  border: 0px solid #bd3a3a;
+  border-radius: 5px;
+  background-color: #bd3a3a;
+  color: #fff;
+}
+
+.row {
+  margin: 0 !important;
+}
+
+@media screen and (max-width: 844px) {
+  footer {
+    padding: 20px;
+  }
+
+  footer .row .col-sm-12.col-md-12.col-lg-2,
+  footer .row .col-sm-12.col-md-12.col-lg-6 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  footer .row .col-sm-12.col-md-12.col-lg-2 h5,
+  footer .row .col-sm-12.col-md-12.col-lg-6 h5 {
+    margin-left: 0;
+  }
+
+  footer .row .col-sm-12.col-md-12.col-lg-2 form,
+  footer .row .col-sm-12.col-md-12.col-lg-6 form {
+    justify-content: center;
+  }
+
+  footer .row .col-sm-12.col-md-12.col-lg-2 form input,
+  footer .row .col-sm-12.col-md-12.col-lg-6 form input {
+    width: 100%;
+  }
+
+  footer .row .col-sm-12.col-md-12.col-lg-2 .d-flex,
+  footer .row .col-sm-12.col-md-12.col-lg-6 .d-flex {
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  footer .row .col-sm-12.col-md-12.col-lg-2 img,
+  footer .row .col-sm-12.col-md-12.col-lg-6 img {
+    margin: 0 5px;
+  }
+
+  
+}
+
+fieldset {
+  margin: 0;
+  padding: 20px;
+}
+
+.address {
+  font-size: 14px;
+}
+
+.office {
+  font-size: 14px;
+}
+
+.location {
+  font-size: 20px;
+}
+
+.phone {
+  font-size: 20px;
+}
+
+.email {
+  font-size: 20px;
+}
+
+.product {
+  font-size: 10px;
+  margin-top: 18px;
+}
+
+.products {
+  margin-top: 15px;
+  font-size: 10px;
+}
+
+
+
+.blog-btn {
+  background-color: #fff;
+  font-size: 11px;
+  font-weight: bolder;
+  width: 118px;
+}
+
+/* .row {
+  margin: 0 !important;
+} */
+
+
+
+.twtw {
+  text-align: center !important;
+}
+
+.threeimages {
+  margin-top: 5rem;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.btn-last {
+  padding: 9px 90px;
+  margin-bottom:10rem;
+}
+
+.btn-log {
+  padding: 9px 160px;
+  margin-bottom: 0.7rem; 
+}
+
+.mother {
+  /* box-shadow:  rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
+  
+  margin-bottom: 4rem;
+  padding: 90px 150 ;
+}
+
+.btn-main {
+  /* box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;  */
+  /* border: 1px solid #B0B0B0; */
+  padding: 7px 9px;
+  margin-bottom: 1.2rem;
+
+}
+
+.jumbotron {
+  background: #fff !important;
+  border: 1px solid #c7c1c1 !important;
+}
+
+
+/* this is check component */
+
+.btn-new {
+  border-radius: 6px;
+  padding: 5px 40px;
+  border: none;
+  background-color: rgb(163, 39, 39);
+  color: #fff;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 99.4%;
+}
+
+.products-cart {
+  background-color: white;
+  height: 1600px;
+  width: 1252x;
+  border: 2px solid lightgray;
+  margin-left: 15px;
+}
+
+.line {
+  border-bottom: 2px solid lightgray;
+  width: 1150px;
+}
+
+.bran {
+  height: 30px;
+  width: 80px;
+  margin-left: 5px;
+}
+
+.bra {
+  width: 10px;
+  height: 10px;
+  margin-right: 150px;
+  margin-top: -5px;
+}
+
+.cic {
+  font-size: 10px;
+  margin-top: -20px;
+  color: white;
+  margin-left: 10px;
+}
+
+.apples {
+  width: 10px;
+  height: 10px;
+  margin-right: 150px;
+  margin-top: -5px;
+}
+
+.brann {
+  width: 70px;
+  height: 30px;
+}
+
+.pen {
+  font-size: 10px;
+  margin-top: -20px;
+  color: brand;
+}
+
+.mode {
+  background-color: maroon;
+}
+
+
+
+
+
+
